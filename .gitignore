@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+build/
+.idea
+.vscode
+.env
+/.soliumignore
+/.soliumrc.json
+/.node*
+.DS_Store

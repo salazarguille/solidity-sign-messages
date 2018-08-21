@@ -1,0 +1,48 @@
+{
+  "name": "solidity-sign-message",
+  "version": "0.0.1",
+  "description": "A solidity project to show how can sign messages using web3js and solidity, and authorize specific addresses to payout a specific amount of ether or tokens.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test-win": "truffle.cmd test",
+    "test-os": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salazarguille/solidity-sign-messages.git"
+  },
+  "keywords": ["solidity","sign","message","blockchain","erc20","payment"],
+  "author": "guillesalazar@gmail.com",
+  "license": "ISC",
+  "homepage": "https://github.com/salazarguille/solidity-sign-messages.git#readme",
+  "dependencies": {
+    "bluebird": "3.5.1",
+    "ethereumjs-util": "5.1.5",
+    "jsonfile": "4.0.0",
+    "lodash": "4.17.5",
+    "moment": "2.21.0",
+    "truffle-core": "4.1.13",
+    "web3": "1.0.0-beta.33",
+    "web3-utils": "1.0.0-beta.33",
+    "zeppelin-solidity": "1.7.0"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "chai-bignumber": "2.0.2",
+    "chai-as-promised": "^7.1.1",
+    "dotenv": "5.0.1",
+    "eth-gas-reporter": "0.1.10",
+    "ethereumjs-wallet": "0.6.0",
+    "ganache-cli": "6.0.3",
+    "leche": "2.2.3",
+    "mocha": "5.0.4",
+    "solidity-coverage": "0.5.5",
+    "solium": "1.1.2",
+    "truffle": "4.1.13",
+    "truffle-config": "1.0.6",
+    "truffle-hdwallet-provider": "git+https://github.com/trufflesuite/truffle-hdwallet-provider.git#71520a2"
+  }
+}
